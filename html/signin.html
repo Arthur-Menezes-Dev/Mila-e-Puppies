@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+  <title></title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../style/signin.css">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div id="container">
+      
+      <header>
+        <h1 id="Titulo">Crie A Sua Conta</h1>
+      </header>
+      
+      <main>
+        <section id="" class="">
+
+            <form action="arquivo.php" method="get">
+
+              <label for="campo_Nome" class="fontText">Nome: </label>
+              <input id="campo_Nome" type="text" required placeholder="Digite o seu nome aqui" name="nome">
+
+              <br><br>
+
+              <label for="campo_SobreNome" class="fontText">SobreNome: </label>
+              <input id="campo_SobreNome" type="text"  required placeholder="Digite o seu Sobrenome aqui" name="sobrenome">
+
+              <br><br>
+
+              <label for="campo_Telefone" class="fontText">Telefone: </label>
+              <input id="campo_Telefone" type="tel"  required placeholder="Digite o seu Telefone aqui" name="Telefone">
+
+              <br><br>
+
+              <label for="campo_Data" class="fontText">Data De Nascimento: </label>
+              <input id="campo_Data" type="date"  required placeholder="Digite a sua data de aniversario" name="dataNascimento">
+
+              <br><br>
+
+              <label for="campo_cpf" class="fontText">Digite seu CPF:</label>
+              <input type="text" id="campo_cpf" name="cpf" placeholder="000.000.000-00" maxlength="14">
+
+              <br><br>
+
+              <label for="campo_cep" class="fontText">Digite seu CEP:</label>
+              <input type="text" id="campo_cep" name="cep" placeholder="00000-000" maxlength="9">
+
+              <br><br>
+
+              <label for="endereco" class="fontText">Endereço:</label>
+              <input type="adress" id="endereco" name="endereco" placeholder="Digite o seu Endereço Aqui" >
+
+              <br><br>
+
+              <label for="campo_NumeroCasa" class="fontText">Numero: </label>
+              <input id="campo_NumeroCasa" type="text" required placeholder="Digite o Numero da sua residência" name="numCasa">
+
+              <br><br>
+
+              <label for="campo_Estado" class="fontText">Estado:</label>
+              <input type="text" id="campo_Estado" name="estado" placeholder="Digite a sigla do seu Estado" maxlength="2">
+
+              <br><br>
+
+              <label for="campo_Bairro" class="fontText">Bairro:</label>
+              <input type="text" id="campo_Bairro" name="estado" placeholder="Digite o nome do seu Bairro">
+
+              <br><br>
+
+              <label for="campo_Email" class="fontText">E-Mail: </label>
+              <input id="campo_SobreNome" type="email"  required placeholder="Digite o seu E-mail aqui" name="email">
+
+              <br><br>
+
+              <label for="campo_CriarSenha" class="fontText">Crie A Sua Senha: </label>
+              <input id="campo_CriarSenha" type="password"  required placeholder="Crie a Sua Senha aqui" name="criarSenha">
+
+              <br><br>
+
+              <label for="campo_Senha" class="fontText">Repita a Senha: </label>
+              <input id="campo_Senha" type="password"  required placeholder="Repita a Senha" name="senha">
+
+              <br><br>
+
+              <input id="campo_Termos" type="checkbox" name="termos" value="termos"  required placeholder="" name="termos">
+              <label for="campo_Termos"  class="fontText">Concordo com os<a id="termCheck" href="" target="_blank"> termos de uso: </a></label>
+
+              <br><br>
+
+              <input id="Enviar" type="button" value="Enviar">
+
+
+            </form>
+
+        </section>
+      </main>
+      
+      <footer>
+        
+      </footer>
+      
+    </div>
+  </body>
+</html>

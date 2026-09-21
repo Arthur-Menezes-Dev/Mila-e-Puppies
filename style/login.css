@@ -1,0 +1,84 @@
+html{
+      border: 20px, #ffff00dd, Solid ;
+      min-height: 100vh; 
+      background-image: url("../img_milaandPuppiesPetshop/Mila&Puppies_Photo.png"); 
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-attachment: fixed; 
+}
+
+
+
+body{
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+}
+
+#container{
+      text-align: center;
+      Display: flex ;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width:100% ;
+      Height: 100% ;
+}
+
+main{
+      border: 1px, black, Solid ; ;
+      background-color:	white ;
+      width: 80%;
+      Display: flex ;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+}
+
+#Titulo{
+     font-family: Impact, fantasy ;
+     font-size: 60px;
+     color: #ffff00dd; 
+     margin: 60px;
+}
+
+.fontText{
+      font-family: Optima, sans-seriff ;
+      font-size: 20px;    
+}
+
+.formLink{
+      text-decoration: none;
+}
+
+.formLink:hover{
+      font-size: 15px;
+      font-weight: bold;
+}
+
+
+input{
+   width: 300px;
+}
+
+#Enviar{
+  border-radius: 20px;
+  background-color: #191970;
+  color: white;
+  height: 27px;
+  width: 150px;
+  font-size: 17px;
+  font-family: Optima, sans-seriff ;
+}
+
+#Enviar:hover{
+  background-color: #6A5ACD;
+  color: aliceblue;
+  height: 54px;
+  width: 300px;
+  font-size: 27px;
+  font-family: Optima, sans-seriff ;
+}

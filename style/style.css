@@ -1,0 +1,195 @@
+html{
+      border: 20px, #8B0000, Solid ;
+}
+
+
+body{
+      background-color:	#ffff00dd ;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+}
+
+#container{
+      text-align: center;
+      background-color: #FFFF00 ;
+      Display: flex ;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width:100% ;
+      Height: 100% ;
+}
+
+.FontTitle{
+      font-family: Impact, fantasy;
+      font-size: 60px;
+      color: #8B0000;
+      margin: 30px; 
+}
+
+.fontText{
+      font-family: Optima, sans-seriff ;
+      font-size: 20px;    
+}
+
+nav{
+      /*border: 1px, black, Solid ;*/
+      background-color: #ffbb00e9 ;
+      margin-bottom: 0px;
+      margin-top: 0px;
+      width: 100%;
+      height: 35px;
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+      align-items: center;
+      gap: 10px;
+}
+
+
+
+.botaoNav{
+      border-radius: 25px; 
+      background-color:#E0FFFF ;
+      font-weight: bold;
+      font-family:Bookman, URW Bookman L, serif ;
+      height: 30px;
+}
+
+header{
+      /*border: 1px, black, Solid ;*/
+      background-color:	#ffff00dd ;
+      margin-top: 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+#Titulo{
+     font-family: Impact, fantasy ;
+     font-size: 60px;
+     color: #8B0000; 
+     margin: 60px;
+}
+
+#Titulo:hover{
+      font-size: 75px;
+      color: #FF4500; 
+}
+
+.textShift:hover{
+      font-size: 75px;
+      color: #FF4500; 
+}
+
+#LogoHeader{
+      padding-top: 20px;
+}
+
+#LogoHeader:hover{
+      width: 550px;
+      height: 550px;
+      border: dotted 4px #F0F8FF;
+      padding-top: 0px;
+}
+
+
+
+#Texto1Header{
+      padding-bottom: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin: 40px;
+}
+
+
+
+main{
+      /*border: 1px, black, Solid ;*/
+      background-color:	#98FB98 ;
+      width: 100%;
+      background-color: #ffff00dd ;
+
+}
+
+#sectionProdutos{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+#cardsCards{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin: 20px;
+}
+
+#NoMapa{
+      Display: flex ;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+iframe{
+      margin: 10px;
+}
+
+#depoimentoCard{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin: 20px;  
+}
+
+footer{
+      border: 1px, black, Solid ; ;
+      background-color:	#FFDEAD ;
+      width: 100%;
+      background-color:	#FFA500 ;
+}
+
+
+#secaoButton{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      margin: 10px;
+      padding: 10px;
+}
+
+.buttonfooter{
+       background-color: #6A5ACD;
+       color: #8B0000;
+       border-radius: 15%;
+}
+
+.seclink{
+      text-decoration: none;
+}
+
+.clean-list {
+       list-style-type: none;
+}
+
+.no-underline {
+      text-decoration: none;
+}
+
+.FooterLink{
+       text-decoration: none;
+        color: #8B0000;
+}
+
