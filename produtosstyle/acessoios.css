@@ -1,0 +1,88 @@
+body{
+    text-align: center;
+    background-color: #00FFFF;
+    border:	#800000 15px solid ;
+}
+
+#cards{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px
+}
+
+
+.FontTitle{
+    font-family: Impact, fantasy;
+    font-size: 60px;
+    color: #8B0000;
+    margin: 30px; 
+}
+
+
+.fontText{
+    font-family: Optima, sans-seriff ;
+    font-size: 20px;    
+}
+
+
+
+.card-link{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.card-link:hover{
+    color: black; 
+}
+
+.botaoLink{
+    background-color: blue;
+    margin: 10px;
+    border: solid 10px darkblue;
+    border-radius: 10px;
+}
+
+.botaoLink:hover{
+    background-color:#00FF00;
+    height: 90px;
+    width: 250px;
+}
+
+footer{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: #00CED1;
+
+}
+
+form{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px; 
+}
+
+.botaofooter{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.btn{
+    background-color: #800000;
+}
+
+.FontTitle2{
+    font-family: Impact, fantasy;
+    font-size: 40px;
+    color: #8B0000;
+    margin: 10px; 
+}
+
+
